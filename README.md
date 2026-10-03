@@ -18,11 +18,10 @@ A RESTful backend system built for an Online Movie Ticket Booking platform. The 
 ## Database Configuration
 
 Update your `src/main/resources/application.properties` with your local MySQL database settings:
-
+'''properties
 spring.datasource.url=jdbc:mysql://localhost:3306/movie_booking_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
 spring.datasource.username=root
-spring.datasource.password=YOUR_MYSQL_PASSWORD
-
+spring.datasource.password=Clrlaki@2006
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true

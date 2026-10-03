@@ -27,12 +27,12 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 ```
-
+```
 ### JWT Configuration
 
 jwt.secret=9a2f8c4e7b1a3d6f8e0c2b5a7d9e1f4c6b8a0d2e4f6a8b1c3d5e7f9a2b4c6d8e
 jwt.expiration=86400000
-
+```
 ---
 
 ## Entity Relationship Diagram (ERD)

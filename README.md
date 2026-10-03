@@ -1,4 +1,4 @@
-** Movie Ticket Booking System - Backend API
+# Movie Ticket Booking System - Backend API
 
 ## Project Description
 A RESTful backend system built for an Online Movie Ticket Booking platform. The application provides secure JWT-based authentication and role-based access control (ADMIN and CUSTOMER). Customers can explore movies, check theatre shows, view seat availability, book tickets, and manage payments. Administrators have full control over managing users, movies, theatres, shows, bookings, and payments.

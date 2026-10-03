@@ -38,7 +38,7 @@ jwt.expiration=86400000
 ## Entity Relationship Diagram (ERD)
 
 The core domain consists of six entities connected via JPA relational mappings:
-
+```
 +------------------+ 1:M +------------------+
 | User | ------------------> | Booking |
 | (ADMIN/CUSTOMER) | | (PENDING/CONF...) |
@@ -57,7 +57,7 @@ v
 | Show | <------------------ | Theatre |
 | (SCHEDULED/CANC) | | (ACTIVE/INACTIVE)|
 +------------------+ +------------------+
-
+```
 ### Entity Relationships Overview:
 * **User (1) to Booking (M):** A user can create multiple bookings.
 * **Show (1) to Booking (M):** A show screening can have multiple customer bookings.
